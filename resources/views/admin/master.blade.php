@@ -71,7 +71,7 @@
                                 <li><a href="piechart.html">pie chart</a></li>
                             </ul>
                         </li>
-                      
+
 
                     </ul>
                 </nav>
@@ -83,7 +83,7 @@
     <!-- footer area start-->
     <footer>
         <div class="footer-area">
-            <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
+            <p>© Copyright 2022. All right reserved. Template by <a href="www.pobitrodeb" target="_blank">pobitrodeb</a>.</p>
         </div>
     </footer>
     <!-- footer area end-->
