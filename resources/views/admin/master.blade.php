@@ -294,6 +294,9 @@
 <!-- others plugins -->
 <script src="{{asset('/')}}admin/assets/js/plugins.js"></script>
 <script src="{{asset('/')}}admin/assets/js/scripts.js"></script>
+<script>
+        @yield('script')
+</script>
 </body>
 
 </html>

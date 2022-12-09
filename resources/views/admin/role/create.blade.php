@@ -20,6 +20,17 @@
                                 <div class="col-md-9">----</div>
                             </div>
 
+                            <div class="row mb-2">
+                                <div class="col-md-3">All Permissions</div>
+                                <div class="col-md-9">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="checkPermissionAll" value="1"/>
+                                        <label class="custom-control-label" for="checkPermissionAll">All Select </label>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+
                             @foreach ($permissions as $permission)
                             <div class="row mb-2">
                                 <div class="col-md-3"></div>
@@ -45,4 +56,14 @@
             </div>
         </div>
    </section>
+    <script>
+        $("#checkPermissionAll").click(function(){
+        if($(this).is(':checked)){
+        $('input[type=checkbox]').prop('checked', true);
+        } else {
+            $('input[type=checkbox]').prop('checked', false)
+        }
+    </script>
 @endsection
+
+
